@@ -1,0 +1,13 @@
+{% extends 'promenback/base.html' %}  {% block content %}
+<h2>Products</h2>
+<ul>
+  {% for customers in customer %}
+  <li>
+    <a href="/">
+        {{ customer.user }}
+    </a>
+    
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends 'promenback/base.html' %}  {% block content %}
+<h2>{{ product.name }}</h2>
+<h2>{{ product.brand }}</h2>
+
+<img src="{{ product.image }}" alt="">
+<p>{{ product.price }}</p>
+<p>{{ product.description }}</p>
+
+{% endblock %}
